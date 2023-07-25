@@ -12,21 +12,23 @@ import { ThemeSelector } from '@/components/ThemeSelector'
 
 export const navigation = [
   {
-    title: 'Introduction',
-    links: [
-      { title: 'Getting started', href: '/' },
-      { title: 'Installation', href: '/docs/installation' },
-    ],
+    title: '',
+    links: [{ title: 'Getting started', href: '/' }],
   },
   {
-    title: 'Core concepts',
-    links: [{ title: 'Node SDK', href: '/packages/polyfact-node' }],
+    title: 'SDK (node.js)',
+    links: [
+      { title: 'Installation', href: '/sdk/installation' },
+      { title: 'Generate', href: '/sdk/generate' },
+      { title: 'Memory', href: '/sdk/memory' },
+      { title: 'CLI', href: '/sdk/cli' },
+    ],
   },
   {
     title: 'Packages',
     links: [
-      { title: 'AI Docs', href: '/packages/ai-docs' },
-      { title: 'AI Logger', href: '/packages/ai-logger' },
+      { title: 'ai-docs', href: '/docs/ai-docs' },
+      { title: 'ai-logger', href: '/docs/ai-logger' },
     ],
   },
 ]

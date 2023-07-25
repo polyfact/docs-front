@@ -3,5 +3,5 @@ export function Logomark(props) {
 }
 
 export function Logo(props) {
-  return 'Polyfact'
+  return <span className="dark:text-white">Polyfact</span>
 }
